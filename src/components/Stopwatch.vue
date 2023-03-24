@@ -107,7 +107,7 @@ export default {
 
 .time__hour {
     width: 20px;
-    text-align: right;
+    margin-right: 8px;
 }
 
 .time__hour::after {
@@ -116,7 +116,7 @@ export default {
 
 .time__minute {
     width: 20px;
-    text-align: right;
+    margin-right: 8px;
 }
 
 .time__minute::after {
