@@ -1,3 +1,5 @@
+https://rinatnuriev.github.io/Stopwatch-by-Vue3/
+
 npm install
 
 npm run dev
