@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro/gothampro_medium.ttf');
+    font-weight: 400
+}
+
+body {
+    background: #353638;
+    font-family: "Gotham Pro";
+    font-style: normal;
+    transition: all 1.2s ease;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 225px);
+    gap: 45px 50px;
+    justify-content: center;
+    margin: 72px auto 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .boxes {
+        grid-template-columns: repeat(2, 225px);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .boxes {
+        grid-template-columns: 225px;
+    }
+}
